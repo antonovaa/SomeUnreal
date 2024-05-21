@@ -24,7 +24,6 @@ public:
 private:
 	UAudioComponent* GetSoundLayer(ESoundLayerType InSoundLayer, const UObject* InWCO = nullptr, USoundBase* InSound = nullptr);
 
-private:
 	UPROPERTY()
 	UAudioComponent* BackgroundMusic = nullptr;
 
